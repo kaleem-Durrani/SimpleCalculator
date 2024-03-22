@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/my_styles.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div>
+        <input type="text" />
+      </div>
+
+      <div>
+        <button onclick="buttonClick('C')">C</button>
+        <button>%</button>
+        <button onclick="buttonClick('/')">/</button>
+        <button onclick="buttonClick('<-')"><-</button>
+      </div>
+      <div>
+        <button>CE</button>
+        <button onclick="buttonClick('(')">(</button>
+        <button onclick="buttonClick(')')">)</button>
+        <button onclick="buttonClick('^2')">x^2</button>
+      </div>
+      <div>
+        <button onclick="buttonClick('7')">7</button>
+        <button onclick="buttonClick('8')">8</button>
+        <button onclick="buttonClick('9')">9</button>
+        <button onclick="buttonClick('*')">X</button>
+      </div>
+      <div>
+        <button onclick="buttonClick('4')">4</button>
+        <button onclick="buttonClick('5')">5</button>
+        <button onclick="buttonClick('6')">6</button>
+        <button onclick="buttonClick('-')">-</button>
+      </div>
+      <div>
+        <button onclick="buttonClick('1')">1</button>
+        <button onclick="buttonClick('2')">2</button>
+        <button onclick="buttonClick('3')">3</button>
+        <button onclick="buttonClick('+')">+</button>
+      </div>
+      <div>
+        <button>+/-</button>
+        <button onclick="buttonClick('0')">0</button>
+        <button onclick="buttonClick('.')">.</button>
+        <button onclick="buttonClick('=')">=</button>
+      </div>
+    </div>
+  </body>
+</html>
